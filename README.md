@@ -4,7 +4,7 @@ A **customisable, non-persistent Garry's Mod server** built with Docker. Each ru
 
 ## Notice
 
-This Docker build uses SteamCMD (© Valve). SteamCMD is not included in this repository and must be used according to Valve's licensing terms: https://store.steampowered.com/steamcmd
+This Docker build uses SteamCMD (© Valve). SteamCMD is not included in this repository and must be used according to Valve's licensing terms.
 
 This is intended for private/experimental use. This runs SteamCMD as root in the container. 
 
