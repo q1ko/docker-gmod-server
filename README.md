@@ -28,6 +28,8 @@ Feel free to branch and make a pull request to make it safer. I just haven't fou
 
 ## Getting Started
 
+This assumes you have already have a configuration ready that you made on a local server. 
+
 ### Build the Image
 
 #### 1. Clone the repository:
@@ -39,7 +41,7 @@ cd docker-gmod-server
 
 #### 2. Modify garrysmod folder and start.sh
 
-This is where you would place your configurations and addons such as ULX/ULib, following the same folder structure as configured yourself. 
+This is where you would place your configurations and addons such as ULX/ULib, following the same folder structure as configured yourself. Drop your garrysmod folder prepared earlier here.
 ```
 garrysmod/
 ├── addons/
@@ -71,6 +73,6 @@ exec ./srcds_run -game garrysmod \
 docker build . -t gmodimg
 docker run -it -p 27015:27015/udp -p 27015:27015/tcp gmodimg --name gmodserver
 ```
-You will finish with the server running and on the SRCDS command line.
+You will finish with the server running and on the SRCDS command line. Deployment time depends on internet speed of the host.
 
 
