@@ -39,7 +39,18 @@ cd docker-gmod-server
 
 #### 2. Modify garrysmod folder and start.sh
 
-This is where you would place your configurations and addons such as ULX/ULib, following the same folder structure. Don't forget to change server.cfg ;)
+This is where you would place your configurations and addons such as ULX/ULib, following the same folder structure as configured yourself. 
+```
+garrysmod/
+├── addons/
+│   ├── ulib/
+│   ├── ulix/
+├── cfg/
+│   ├── server.cfg
+├── data/
+├── ...
+```
+Don't forget to change server.cfg ;)
 
 ##### Modifying start.sh
 Change the flags and values to your needs. Remove/comment collection lines if you don't need workshop collections. 
