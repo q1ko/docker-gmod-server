@@ -28,9 +28,11 @@ Feel free to branch and make a pull request to make it safer. I just haven't fou
 
 ## Getting Started
 
-This assumes you have already have a configuration ready that you made on a local server. 
+This assumes you have already have a configuration ready.
 
-### Build the Image
+Before starting, you can decide to build locally or on your VPS.
+- Build locally if you can quickly upload >200MBs (SteamCMD image + addons you may have added), or
+- Build on your VPS to minimise upload times
 
 #### 1. Clone the repository:
 
