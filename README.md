@@ -23,7 +23,7 @@ Feel free to branch and make a pull request to make it safer. I just haven't fou
 
 - Friends and I only play TTT/Murder occasionally
 - Due to the lack of bandwidth and hardware for supporting 15 of us, using a VPS is the next best option
-- Developed the build to run on demand, then destroy the vm after we had finished a session
+- Developed the build to run on demand, then destroy the VM after we had finished a session
 - We didn't need it on 24/7 and VPS provider charges by the hour instead of monthly, effectively only paying less than a dollar per session
 
 ## Getting Started
@@ -48,7 +48,7 @@ This is where you would place your configurations and addons such as ULX/ULib, f
 garrysmod/
 ├── addons/
 │   ├── ulib/
-│   ├── ulix/
+│   ├── ulx/
 ├── cfg/
 │   ├── server.cfg
 ├── data/
