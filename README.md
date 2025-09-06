@@ -1,4 +1,4 @@
-# Garry's Mod Docker Build
+# Garry's Mod Server Docker Build
 
 A **customisable, non-persistent Garry's Mod server** built with Docker. Each run downloads a fresh GMod server from the official SteamCMD Docker image and applies configs from `start.sh` and the `garrysmod` folder, allowing for addon configurations.
 
